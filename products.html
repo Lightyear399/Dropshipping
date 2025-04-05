@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Beauty Products - DropshipPro</title>
+    <meta name="description" content="High-quality beauty products for your dropshipping store with proven demand">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Snipcart CSS -->
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation (same as index.html) -->
+    <nav class="bg-white shadow-lg">
+        <!-- Copy the same navigation from index.html -->
+    </nav>
+
+    <!-- Products Hero -->
+    <section class="bg-pink-600 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-6">Premium Beauty Products</h1>
+            <p class="text-xl mb-8">High-quality, in-demand products with excellent margins for your store</p>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="product-category bg-pink-600 text-white px-6 py-2 rounded-full font-medium">All Products</button>
+                <button class="product-category bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Skincare</button>
+                <button class="product-category bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Hair Care</button>
+                <button class="product-category bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Makeup</button>
+                <button class="product-category bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Tools</button>
+                <button class="product-category bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Bestsellers</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Vitamin C Serum" class="w-full h-64 object-cover">
+                        <span class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-semibold px-2 py-1 rounded">Bestseller</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Vitamin C Serum</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">4.5 (128 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Brightening serum with 20% vitamin C for radiant skin. 30ml bottle.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$24.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $14.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="vitamin-c-serum"
+                                data-item-price="24.99"
+                                data-item-url="/products.html"
+                                data-item-description="Brightening serum with 20% vitamin C for radiant skin"
+                                data-item-image="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                                data-item-name="Vitamin C Serum">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Jade Roller" class="w-full h-64 object-cover">
+                        <span class="absolute top-2 right-2 bg-green-600 text-white text-xs font-semibold px-2 py-1 rounded">Trending</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Jade Facial Roller</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">4.0 (96 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Authentic jade roller for facial massage and puffiness reduction.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$19.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $12.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="jade-roller"
+                                data-item-price="19.99"
+                                data-item-url="/products.html"
+                                data-item-description="Authentic jade roller for facial massage"
+                                data-item-image="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                data-item-name="Jade Facial Roller">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Hyaluronic Acid" class="w-full h-64 object-cover">
+                        <span class="absolute top-2 right-2 bg-purple-600 text-white text-xs font-semibold px-2 py-1 rounded">New</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Hyaluronic Acid Serum</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">5.0 (214 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Intense hydration serum with pure hyaluronic acid. 30ml bottle.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$29.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $18.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="hyaluronic-acid"
+                                data-item-price="29.99"
+                                data-item-url="/products.html"
+                                data-item-description="Intense hydration serum with pure hyaluronic acid"
+                                data-item-image="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                                data-item-name="Hyaluronic Acid Serum">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1479&q=80" alt="Charcoal Mask" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Charcoal Face Mask</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">4.0 (87 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Detoxifying charcoal mask for deep pore cleansing. 100ml jar.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$22.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $14.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="charcoal-mask"
+                                data-item-price="22.99"
+                                data-item-url="/products.html"
+                                data-item-description="Detoxifying charcoal mask for deep pore cleansing"
+                                data-item-image="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1479&q=80"
+                                data-item-name="Charcoal Face Mask">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1591073113125-e46713c829ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Derma Roller" class="w-full h-64 object-cover">
+                        <span class="absolute top-2 right-2 bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded">Limited</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">0.5mm Derma Roller</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">3.5 (64 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Professional derma roller for at-home micro-needling therapy.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$34.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $22.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="derma-roller"
+                                data-item-price="34.99"
+                                data-item-url="/products.html"
+                                data-item-description="Professional derma roller for at-home micro-needling"
+                                data-item-image="https://images.unsplash.com/photo-1591073113125-e46713c829ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                                data-item-name="0.5mm Derma Roller">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Eye Cream" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Anti-Aging Eye Cream</h3>
+                        <div class="flex mb-2">
+                            <span class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="text-gray-600 ml-2">5.0 (142 reviews)</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Reduces dark circles and fine lines. 15ml jar.</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="font-bold text-pink-600 text-lg">$27.99</span>
+                                <span class="text-gray-500 text-sm ml-2">Your price: $17.99</span>
+                            </div>
+                            <!-- Snipcart Add to Cart Button -->
+                            <button class="snipcart-add-item bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition duration-300 text-sm"
+                                data-item-id="eye-cream"
+                                data-item-price="27.99"
+                                data-item-url="/products.html"
+                                data-item-description="Anti-aging eye cream reduces dark circles and fine lines"
+                                data-item-image="https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+                                data-item-name="Anti-Aging Eye Cream">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Our Products -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Why Dropship Our Products?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-check-circle text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Proven Demand</h3>
+                    <p class="text-gray-600">All products are market-tested with verified sales data.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-truck text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Fast Shipping</h3>
+                    <p class="text-gray-600">US and EU warehouses for 3-7 day delivery times.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-percentage text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">High Margins</h3>
+                    <p class="text-gray-600">50-70% profit margins on all products.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-images text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Professional Media</h3>
+                    <p class="text-gray-600">Get high-quality product photos and videos for marketing.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-shield-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Quality Guarantee</h3>
+                    <p class="text-gray-600">We inspect all products before shipping to your customers.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-pink-500 mb-4">
+                        <i class="fas fa-headset text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Dedicated Support</h3>
+                    <p class="text-gray-600">24/7 support for you and your customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supplier Information -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">How Our Dropshipping Works</h2>
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-pink-600 text-2xl font-bold">1</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">List Our Products</h3>
+                        <p class="text-gray-600 text-sm">Add our products to your store at your desired price.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-pink-600 text-2xl font-bold">2</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">Receive Order</h3>
+                        <p class="text-gray-600 text-sm">When a customer buys, you receive payment and order from us.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-pink-600 text-2xl font-bold">3</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">We Ship Directly</h3>
+                        <p class="text-gray-600 text-sm">We fulfill the order with your branding, no inventory needed.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="bg-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-pink-700 transition duration-300 inline-block">
+                        Apply to Dropship With Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (same as index.html) -->
+    <section class="py-16 bg-pink-600 text-white">
+        <!-- Copy testimonials section from index.html -->
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-gray-800 text-white py-12">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <!-- Snipcart JavaScript -->
+    <script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="YOUR_SNIPCART_API_KEY" data-config-modal-style="side"></div>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Mobile menu toggle (same as index.html)
+        const btn = document.querySelector(".mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+
+        // Product category filtering
+        document.querySelectorAll('.product-category').forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                document.querySelectorAll('.product-category').forEach(btn => {
+                    btn.classList.remove('bg-pink-600', 'text-white');
+                    btn.classList.add('bg-gray-200', 'text-gray-800', 'hover:bg-gray-300');
+                });
+                
+                // Add active class to clicked button
+                button.classList.remove('bg-gray-200', 'text-gray-800', 'hover:bg-gray-300');
+                button.classList.add('bg-pink-600', 'text-white');
+                
+                // Here you would typically filter products based on category
+                console.log(`Filtering by: ${button.textContent}`);
+            });
+        });
+
+        // Initialize Snipcart
+        document.addEventListener('snipcart.ready', () => {
+            console.log('Snipcart is loaded');
+        });
+    </script>
+</body>
+</html>
